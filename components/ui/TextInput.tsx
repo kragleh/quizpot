@@ -6,7 +6,7 @@ const TextInput = ({ value, onChange }: { value: string, onChange: (e: React.Cha
       type='text'
       className='p-2 border-2 border-gray-400 rounded w-full'
       onChange={(e) => { onChange(e) }} 
-      defaultValue={ value }
+      value={ value }
     />
   )
 }

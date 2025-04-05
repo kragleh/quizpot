@@ -22,7 +22,7 @@ const QuestionCard = ({ question, index }: { question: Question, index: number }
     <div key={index} onClick={() => { currentQuestionIndexContext.setCurrentQuestionIndex(index) }} className='w-full hover:cursor-pointer pb-2'>
       <h1 className='text-xs p-2 font-semibold truncate'>{index + 1}. {question.question}</h1>
       <div className='px-2 flex'>
-        <div className='aspect-video w-full bg-gray-200 border-gray-400 rounded'>
+        <div className='aspect-video w-full bg-neutral-200 border-neutral-400 rounded'>
           {/** add an icon to the question type */}
         </div>
         <div className={'flex flex-col items-center justify-center gap-4 p-1' + (length > 1 ? '' : ' hidden')}>

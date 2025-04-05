@@ -29,7 +29,7 @@ const EditorPage = () => {
     description: "This is a short description of the quiz.",
     language: "en",
     theme: {
-      background: "#ffffff",
+      background: "#e5e5e5",
       color1: "#ff0000",
       color2: "#0000ff",
       color3: "#ffff00",
